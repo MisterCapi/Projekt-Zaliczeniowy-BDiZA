@@ -1,0 +1,3 @@
+SELECT Numer_konta_beneficjenta, Numer_konta_platnika
+FROM bank.transakcje_przychodzace
+WHERE Kwota_transakcji > 1000000;

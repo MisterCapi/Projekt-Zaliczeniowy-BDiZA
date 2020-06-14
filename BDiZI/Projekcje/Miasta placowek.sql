@@ -1,0 +1,1 @@
+SELECT Miasto FROM bank.placowki;
