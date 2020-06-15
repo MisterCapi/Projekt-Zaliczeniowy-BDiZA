@@ -1,0 +1,24 @@
+Wymagania minimalne – ocena 3
+1. Baza powinna zawierać przynajmniej 10 tabel. (TAK)
+2. Każda tabela powinna być w relacji przynajmniej z jedną z pozostałych tabel. (TAK)
+3. Każdy atrybut powinien posiadać przynajmniej jeden z więzów integralności. (TAK)
+4. Każda tabela powinna mieć minimum 10 rekordów składowych. (TAK)
+5. Do schematu przygotowane są zapytania, które mają być według przewidywań projektu (TAK)
+bazy najczęściej wykonywane.
+◦ min 10 zapytań wybierających – projekcie
+◦ min 10 selekcji
+◦ min 10 zapytań łączących (JOIN) dwie tabele
+◦ min 10 zapytań łączących (JOIN) trzy tabele
+Wymagania dodatkowe – oceny 4-5
+1. Projekt spełnia wymagania minimalne. (TAK)
+2. Projekt zawiera przynajmniej jedną tabelę realizującą relację zwrotną np. pracownik → szef (TAK)
+3. Projekt omawia i przewiduje konkretne przypadki kiedy proponowany schemat będzie (NIE)
+musiał w przyszłości zostać zmieniony – np. konieczność wprowadzenia innej postaci
+normalnej w danej tabeli. W dokumentacji przytoczone są min. 3 przykłady opisujące
+konieczność zmiany schematu.
+4. Projekt zawiera skrypty modyfikujące aktualny schemat i dostosowujące go do nowych (NIE)
+warunków. Skrypty powinny przewidywać schematy zmian więzów integralności (klucze,
+ograniczenia itd.). Skrypt powinien również przewidywać konieczność przeniesienia części
+danych pomiędzy tabelami w uzasadnionych przypadkach (np. wyższa postać normalna
+danego atrybutu, który zostanie częściowo przeniesiony do nowej tabeli; patrz polecenia
+CREATE TABLE AS oraz SELECT INTO)
